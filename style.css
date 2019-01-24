@@ -111,7 +111,7 @@ header {
     color: white !important;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
     .hero {
         position: relative;
         display: flex;
