@@ -4,6 +4,10 @@
     list-style: none;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     background-color: #70707080 !important;
 }
@@ -31,7 +35,7 @@ header {
     position: absolute;
     display: flex;
     justify-content: space-between;
-    background: transparent;
+    background: white;
     z-index: 1;
     width: 100%;
     max-width: 1080px;
@@ -46,7 +50,7 @@ header {
 }
 
 .navbar-brand {
-    color: #00336d !important;
+    color: #707070 !important;
     font-weight: 800 !important;
 }
 
@@ -259,7 +263,7 @@ header {
 
     .showcase-body {
         padding: 20px;
-        width: 80%;
+        width: 95%;
     }
 }
 
@@ -308,7 +312,6 @@ header {
 .contact {
     display: flex;
     flex-direction: column;
-    height: 100vh;
     width: 100%;
     align-items: center;
     background-color: #707070;
@@ -327,7 +330,7 @@ form {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    width: 50%;
+    width: 75%;
     background-color: white;
     border-radius: 10px;
 }
@@ -340,7 +343,6 @@ form {
     margin: 10px 0;
     padding: 10px;
     width: 100%;
-    margin-bottom: 50px;
 }
 
 .file-upload {
@@ -418,6 +420,6 @@ form {
 footer {
     background-color: #707070;
     color: white;
-    padding: 50px;
+    padding: 25px;
     width: 100%;
 }
