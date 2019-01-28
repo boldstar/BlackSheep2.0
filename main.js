@@ -35,6 +35,12 @@ document.querySelector('#contactForm').addEventListener('submit', (e) => {
 
     return;
   }
+  else {
+    e.preventDefault();
+
+
+    window.location.replace('http://localhost:5500/success.html')
+  }
 });
 
 // if name input changes remove red border
