@@ -12,6 +12,10 @@ body {
     background-color: #70707080 !important;
 }
 
+.hidden {
+    display: none;
+}
+
 .body-container {
     max-width: 1080px;
     margin: auto;
@@ -345,6 +349,7 @@ form {
 }
 
 .form-btn {
+    cursor: pointer;
     border: 2px solid #707070;
     background: transparent;
     border-radius: 5px;
@@ -354,9 +359,15 @@ form {
     width: 100%;
 }
 
+.form-btn:hover {
+    background: #707070;
+    color: white;
+}
+
 .file-upload {
     border: 1px solid #7070705d;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .upload-btn-wrapper {
