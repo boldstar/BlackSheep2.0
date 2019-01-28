@@ -28,7 +28,7 @@ document.querySelector('#contactForm').addEventListener('submit', (e) => {
 
     return;
   }
-  if(email === '') {
+  else if(email === '') {
     e.preventDefault();
     emailInput.className = `form-control my-3 border-danger`;
     showAlert('Please Fill In Required Fields');
