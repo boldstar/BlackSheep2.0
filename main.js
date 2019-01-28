@@ -39,7 +39,7 @@ document.querySelector('#contactForm').addEventListener('submit', (e) => {
     e.preventDefault();
 
 
-    window.location.replace('http://localhost:5500/success.html')
+    window.location.replace('/success.html')
   }
 });
 
