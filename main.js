@@ -41,7 +41,7 @@ document.querySelector('#contactForm').addEventListener('submit', (e) => {
 document.getElementById('name').addEventListener('input', (e) => {
   const nameInput = document.getElementById('name');
   // apply the following class
-  nameInput.className = `form-control my-3`;
+  nameInput.className = `form-control mb-3`;
 })
 
 // if email input changes remove red border
