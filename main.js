@@ -50,3 +50,23 @@ document.getElementById('email').addEventListener('input', (e) => {
   // apply the following class
   emailInput.className = `form-control my-3`;
 })
+
+
+//when scrolled show topBtn button
+window.onscroll = function() {scrollFunction()};
+
+//function to make the button visible or not visible
+function scrollFunction() {
+  if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById('topBtn').style.display = "block"
+  } else {
+    document.getElementById('topBtn').style.display = "none";
+  }
+}
+
+
+// function to send user back to top of web page
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
