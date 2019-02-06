@@ -40,6 +40,7 @@
             </nav>
         </header>
         <section class="hero">
+            <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
             <div class="hero-content animated bounceInUp">
                 <h1>Black Sheep</h1>
                 <h3>Premium Leather Co</h3>
@@ -95,7 +96,7 @@
                 <div class="card">
                     <img src="img/BlackSheepWeightBelt.jpg" class="card-img-top">
                     <div class="card-body">
-                        <h3>Belts</h3>
+                        <h3>Collars</h3>
                     </div>
                     <div class="card-footer d-flex justify-content-between">
                         <button type="button" id="product-btn" class="product-btn p-0">View</button>
@@ -156,13 +157,13 @@
         </section>
         <section class="contact" id="contact">
             <h2>Contact</h2>
-            <form data-netlify="true" netlify-honeypot="bot-field" name="Contact Form" class="shadow" id="contactForm">
+            <form data-netlify="true" netlify-honeypot="bot-field" name="Contact Form" class="shadow" id="contactForm" action="/success.html">
                 <p class="hidden">
                     <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                   </p>
                 <input maxlength="50" type="text" class="form-control mb-3" placeholder="Name" name="Name" id="name">
-                <input type="text" class="form-control mb-3" placeholder="Phone Number" name="Phone Number" id="phone">
-                <input type="text" class="form-control mb-3" placeholder="Email" name="Email" id="email">
+                <input type="text" class="form-control" placeholder="Phone Number" name="Phone Number" id="phone">
+                <input type="email" class="form-control my-3" placeholder="Email" name="Email" id="email">
                 <textarea maxlength="500" class="form-control mb-3" rows="5" placeholder="Extra Details Go Here..." name="description"></textarea>
                 <div class="form-group p-3 file-upload d-flex flex-column w-100">
                     <label for="fileUpload">Attach Example</label>
