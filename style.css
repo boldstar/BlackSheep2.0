@@ -72,6 +72,16 @@ header {
 .navbar-brand {
     color: #707070 !important;
     font-weight: 800 !important;
+    padding: 0;
+}
+
+.fa-instagram {
+    font-size: 1.5rem;
+    background: -webkit-linear-gradient(rgb(150, 16, 16), rgb(158, 15, 224));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  margin-top: 2px;
 }
 
 .nav-link {
@@ -315,7 +325,15 @@ header {
 }
 
 .product-img {
-    max-height: 250px;
+    height: 225px;
+}
+
+img {
+    height: 225px;
+}
+
+.card-footer span {
+    font-weight: 600;
 }
 
 #product-btn {
@@ -518,4 +536,13 @@ footer {
         border-radius: 0;
         border: none;
     }
+}
+
+.sitebox-link {
+    font-weight: 600;
+    color: white;
+}
+
+.sitebox-link:hover {
+    color: #0077ff;
 }
