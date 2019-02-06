@@ -137,7 +137,7 @@ header {
     border-radius: 10px;
     padding: 10px 5px;
     color: #00336d;
-    font-weight: 600px !important;
+    font-weight: 600 !important;
 }
 
 .hero-btn:hover {
