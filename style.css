@@ -336,9 +336,8 @@ img {
     font-weight: 600;
 }
 
-#product-btn {
-    visibility: hidden;
-    padding: 5px;
+.product-btn {
+    font-size: 1rem !important;
     border: none;
     background: transparent;
     color: blue;
